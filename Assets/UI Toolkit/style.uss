@@ -1,0 +1,8 @@
+.vectorfield {
+    opacity: 1;
+}
+
+.unity-text-element--inner-input-field-component {
+    font-size: 24px;
+    -unity-font-style: bold;
+}

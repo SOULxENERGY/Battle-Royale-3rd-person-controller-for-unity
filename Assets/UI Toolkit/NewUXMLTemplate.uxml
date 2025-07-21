@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/style.uss?fileID=7433441132597879392&amp;guid=ff55f09e43b40254ba30344880dbb06a&amp;type=3#style" />
+    <engine:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; align-items: flex-start;">
+        <engine:Vector3Field label="Velocity&#10;" name="Velocity" enabled="false" class="vectorfield" style="-unity-font-style: bold; font-size: 27px; width: 428px; height: 188px; margin-right: 58px; letter-spacing: -2px;" />
+        <engine:Vector3Field label="Input" name="Input" enabled="false" class="vectorfield" style="-unity-font-style: bold; font-size: 27px; width: 428px; height: 188px;" />
+        <engine:Label text="SkyDiveCount : &#10;" name="SkyDiveCount" class="vectorfield" style="flex-grow: 0; font-size: 39px; -unity-font-style: bold; background-color: rgb(255, 202, 202); display: none; margin-left: 101px;" />
+    </engine:VisualElement>
+    <engine:VisualElement name="Guide" style="flex-grow: 1;">
+        <engine:Label text="J : to jump from airplane&#10;&#10;P : to open parachute manually&#10;&#10;WASD : To Control Prachute and player&#10;&#10;SPACE: to jump&#10;&#10;Mouse: To control direction of player " style="font-size: 25px; -unity-text-align: upper-right; -unity-font-style: bold; position: absolute; top: -551px; left: 1365px; background-color: rgba(201, 217, 0, 0.33);" />
+    </engine:VisualElement>
+</engine:UXML>
